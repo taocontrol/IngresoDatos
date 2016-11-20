@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">IngresoDatos</string>
+
+    <string name="form_username">IngresoDatos</string>
+    <string name="hint_telefono">Telefono</string>
+
+    // Botones
+
+    <string name="Elegir">Elegir</string>
+    <string name="Aceptar">Aceptar</string>
+
+    <string name="Cumpleaños">Cumpleaños</string>
+    <string name="telefono">Telefono</string>
+
+
+    <string name="Fecha">Fecha</string>
+    <string name="Email">e-mail</string>
+
+    <string name="Ingresar">Ingresar</string>
+
+    <string name="Siguiemte">Siguiente</string>
+
+    <string name="Descripcion">Descripcion</string>
+
+
+
+    <string name="Contacto">Contacto</string>
+
+    <string name="Confirmar">Confirmar Datos</string>
+
+    <string name="Editar">Editar Datos</string>
+
+
+//  Parametros de Mailbox
+
+    <string name="mb_contacto">mb_contacto</string>
+    <string name="mb_telefono">mb_contacto</string>
+    <string name="mb_cumple">mb_contacto</string>
+    <string name="mb_email">mb_contacto</string>
+    <string name="mb_descripcion">mb_contacto</string>
+</resources>

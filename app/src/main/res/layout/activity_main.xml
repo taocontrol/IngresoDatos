@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:background="#e3e3e3"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:padding="@dimen/activity_horizontal_margin"
+tools:context=".MainActivity"
+android:orientation="vertical">
+
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="8dp"
+    android:layout_weight="1"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:gravity="center"
+        android:text="@string/Contacto"
+        android:textSize="25sp"
+        android:textColor="#333333"/>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/usernameWrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/ma_contacto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:textSize="15sp"
+            android:hint="@string/Contacto"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/TelefonoWrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/ma_Telefono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:textSize="15sp"
+            android:hint="@string/hint_telefono"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+
+        android:scaleY="1"
+        android:scaleX="1"
+        android:weightSum="1">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:id="@+id/LinearLayoutBotones"
+
+            android:layout_weight="0.95">
+
+            <Button
+                android:id="@+id/btnChangeDate"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="@string/Elegir"
+
+                android:textSize="12sp"
+                />
+
+            <Button
+                android:id="@+id/btnAccept"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="@string/Aceptar"
+                android:scaleY="1"
+                android:scaleX="1"
+
+                android:textSize="12sp"
+                />
+
+
+        </LinearLayout>
+
+
+
+        <TextView
+            android:id="@+id/ma_hoy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Fecha"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <DatePicker
+            android:id="@+id/dpResult"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+          android:calendarTextColor="@color/colorAccent"
+        android:calendarViewShown="true"
+            />
+        <TextView
+            android:id="@+id/ma_cumple"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="@string/Cumpleaños"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    </LinearLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/e_mailWrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="2dp">
+
+        <EditText
+            android:id="@+id/ma_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:textSize="15sp"
+
+            android:hint="@string/Email"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/DescripcionWraper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/ma_descripcion"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_gravity="top"
+            android:inputType="text"
+            android:textSize="15sp"
+
+            android:hint="@string/Descripcion"/>
+    </android.support.design.widget.TextInputLayout>
+
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_gravity="center"
+        android:layout_marginTop="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        android:text="@string/Siguiemte"/>
+
+
+</LinearLayout>
+
+</LinearLayout>

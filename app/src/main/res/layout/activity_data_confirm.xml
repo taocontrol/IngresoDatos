@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_data_confirm"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#e3e3e3"
+    tools:context="com.example.juancollivadino.ingresodatos.DataConfirm">
+
+    <TextView
+        android:id="@+id/cd_titulo"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+
+        android:gravity="center"
+        android:text="@string/Confirmar"
+        android:textSize="25sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/cd_nombre"
+        android:layout_below="@id/cd_titulo"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/cd_altura_casilla"
+
+        android:gravity="left"
+        android:text="@string/Contacto"
+        android:textSize="15sp"
+        android:textColor="@color/colorPrimaryDark"/>
+
+
+    <TextView
+        android:id="@+id/cd_nombre_data"
+        android:layout_below="@id/cd_nombre"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/cd_altura_casilla"
+  android:layout_marginLeft="@dimen/cd_altura_casilla"
+        android:gravity="left"
+        android:text="@string/Contacto"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimaryDark"/>
+
+
+    <TextView
+        android:id="@+id/cd_nacimiento"
+        android:layout_below="@id/cd_nombre_data"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/cd_altura_casilla"
+
+        android:gravity="left"
+        android:text="@string/Cumpleaños"
+        android:textSize="15sp"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <TextView
+        android:id="@+id/cd_nacimiento_data"
+        android:layout_below="@id/cd_nacimiento"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/cd_altura_casilla"
+        android:layout_marginLeft="@dimen/cd_altura_casilla"
+
+        android:gravity="left"
+        android:text="@string/Cumpleaños"
+        android:textSize="15sp"
+        android:textColor="@color/colorPrimaryDark"/>
+
+
+
+    <TextView
+        android:id="@+id/cd_telefono"
+        android:layout_below="@id/cd_nacimiento_data"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/cd_altura_casilla"
+
+        android:gravity="left"
+        android:text="@string/telefono"
+        android:textSize="15sp"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <TextView
+        android:id="@+id/cd_telefono_data"
+        android:layout_below="@id/cd_telefono"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/cd_altura_casilla"
+        android:layout_marginLeft="@dimen/cd_altura_casilla"
+
+        android:gravity="left"
+        android:text="@string/telefono"
+        android:textSize="15sp"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <TextView
+        android:id="@+id/cd_email"
+        android:layout_below="@id/cd_telefono_data"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/cd_altura_casilla"
+
+        android:gravity="left"
+        android:text="@string/Email"
+        android:textSize="15sp"
+        android:textColor="@color/colorPrimaryDark"/>
+
+
+    <TextView
+        android:id="@+id/cd_email_data"
+        android:layout_below="@id/cd_email"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/cd_altura_casilla"
+        android:layout_marginLeft="@dimen/cd_altura_casilla"
+
+        android:gravity="left"
+        android:text="@string/Email"
+        android:textSize="15sp"
+        android:textColor="@color/colorPrimaryDark"/>
+    <TextView
+        android:id="@+id/cd_descripcion"
+        android:layout_below="@id/cd_email_data"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/cd_altura_casilla"
+
+
+        android:gravity="left"
+        android:text="@string/Descripcion"
+        android:textSize="15sp"
+        android:textColor="@color/colorPrimaryDark"/>
+
+
+
+    <TextView
+        android:id="@+id/cd_Descripcion_data"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/cd_altura_descripcion"
+        android:layout_marginLeft="@dimen/cd_altura_casilla"
+        android:layout_below="@id/cd_descripcion"
+
+        android:gravity="left"
+        android:text="@string/Descripcion"
+        android:textSize="15sp"
+        android:textColor="@color/colorPrimaryDark"
+    />
+
+    <Button
+        android:id="@+id/cd_editar"
+        android:layout_below="@id/cd_Descripcion_data"
+        android:layout_gravity="center"
+        android:layout_marginTop="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+
+        android:text="@string/Editar"/>
+</RelativeLayout>
